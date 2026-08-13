@@ -1,0 +1,20 @@
+Git’i kur: Git resmi indirme sayfası adresinden Windows sürümünü indir ve normal şekilde kur.
+VS Code’u aç, sonra terminalden kontrol et:
+git --version
+
+Şuna benzer bir sonuç görüyorsan tamam:
+
+git version 2.x.x
+GitHub hesabını VS Code’a bağla. VS Code’da sol alttaki Accounts / profil ikonuna tıkla → Sign in with GitHub → tarayıcı açılınca GitHub hesabınla giriş yapıp izin ver. GitHub
+İlk kez Git kullanıyorsan VS Code terminaline adını ve GitHub e-postanı gir:
+git config --global user.name "Batuhan Yigit"
+git config --global user.email "github-email-adresin@example.com"
+Bundan sonra mevcut bir GitHub projesini bilgisayarına almak için VS Code'da Ctrl + Shift + P yapıp:
+Git: Clone
+
+seçebilirsin. GitHub repository adresini yapıştırırsın ve proje bilgisayarına iner.
+
+Yeni yaptığın kendi VS Code projenı GitHub'a yüklemek istiyorsan da onu adım adım gösterebilirim; git init → commit → GitHub repository → push şeklinde yapacağız.
+
+
+kodlar ile olucak.
